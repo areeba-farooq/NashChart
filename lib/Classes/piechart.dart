@@ -12,12 +12,12 @@ class PieChartWidget extends StatelessWidget {
     return PieChart(
       dataMap: dataMap,
       animationDuration: const Duration(milliseconds: 800),
-      chartLegendSpacing: 32,
+      chartLegendSpacing: 33,
       chartRadius: MediaQuery.of(context).size.width / 1.2,
       colorList: colorList,
       initialAngleInDegree: 0,
       chartType: ChartType.disc,
-      ringStrokeWidth: 32,
+      ringStrokeWidth: 30,
       legendOptions: const LegendOptions(
         showLegendsInRow: false,
         legendPosition: LegendPosition.bottom,

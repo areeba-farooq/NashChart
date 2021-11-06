@@ -1,4 +1,3 @@
-import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:nash_chart/Constants/constants.dart';
@@ -16,7 +15,6 @@ class MyChart extends StatefulWidget {
 class _MyChartState extends State<MyChart> {
   //tab index
   int selectedIndex = 0;
-
   @override
   Widget build(BuildContext context) {
 
